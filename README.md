@@ -2,7 +2,7 @@
 
   
   COMO RODAR O PROJETO.
- * Instalar todas as dependencias indicadas pelo package.json.
+ * <h2>Instalar todas as dependencias indicadas pelo package.json.</h2>
  ### npm install
 
  SEQUENCIA PARA CRIAR O PROJETO.<br>
