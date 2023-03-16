@@ -34,7 +34,7 @@ O Nodemon é uma ferramenta de linha de comando que ajuda os desenvolvedores a m
 
 5º passo instalar Sequelize 
 Seuquelize é uma biblioteca Javascript que facilita o gerenciamento de um banco de dados SQL.
-- npm install --save sequelize<br><br>
+- <strong>npm install --save sequelize</strong><br><br>
 
 6º passo instalar as dependências do banco de dados Mysql.
 - Use o comando <strong>npm install --save mysql</strong><br><br>
