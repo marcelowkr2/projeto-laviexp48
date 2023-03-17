@@ -1,6 +1,6 @@
 const express = require('express');
 const pacientesController = require('../controllers/pacientes');
-const validatePacientes = require ('../middlewares/auth', '../validators/pacientes');
+const validatePacientes = require ('../middlewares/auth');
 
 const psicologosController = require("../controllers/psicologos");
 const atendimentosController = require('../controllers/atendimentos');
@@ -42,7 +42,5 @@ router.get('/dashboard/numero-atendimentos', atendimentosController.countAtendim
 router.get('/dashboard/media-atendimentos', atendimentosController.averageAtendimentos);
 
 router.post("/login", authLoginValidation, authController.login);
-
-
 
 module.exports = router;
