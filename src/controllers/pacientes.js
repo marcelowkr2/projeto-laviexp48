@@ -1,4 +1,4 @@
-const { Pacientes, Atendimentos } = require("../models/index.js");
+const { Pacientes, Atendimentos } = require('../models');
 
 const pacientesController = {
   listar: async (req, res) => {
@@ -67,4 +67,4 @@ const pacientesController = {
   },
 };
 
-module.exports = pacientesController;
+module.exports = pacientesController
