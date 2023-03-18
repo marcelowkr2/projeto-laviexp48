@@ -1,14 +1,13 @@
 const express = require('express');
+
 const pacientesController = require('../controllers/pacientes');
 const validatePacientes = require ('../middlewares/auth');
 
-const psicologosController = require("../controllers/psicologos");
-const atendimentosController = require('../controllers/atendimentos');
-const authController = require ("../controllers/authController");
+const psicologoController = require("../controllers/psicologos");
+const psicologosValidation = require ("../middlewares/auth");
 
-const psicologosValidation = require ("../validators/psicologos.js");
-const atendimentoValidation = require ("../validators/atendimentos.js");
-const authLoginValidation = require ("../validators/auth/login");
+const atendimentosController = require('../controllers/atendimentos');
+const atendimentoValidation = require ("../middlewares/auth");
 const auth = require ("../middlewares/auth");
 
 const router = express.Router();
@@ -21,26 +20,16 @@ router.post('/pacientes', validatePacientes, pacientesController.cadastrar);
 router.put('/pacientes/:id', validatePacientes, pacientesController.atualizar);
 router.delete('/pacientes/:id',validatePacientes, pacientesController.deletar);
 
-
-
 //PSICOLOGOS
-router.get("/psicologos", psicologosController.listar);
-router.get("/psicologos/:id", psicologosController.listarID);
-router.post("/psicologos",psicologosValidation, psicologosController.cadastrar);
-router.put("/psicologos/:id",psicologosValidation , psicologosController.atualizar);
-router.delete("/psicologos/:id", psicologosController.deletar)
+router.get("/psicologo/listar", psicologoController.listar);
+router.get("/psicologos/:id", psicologoController.listarID);
+router.post("/psicologos",psicologosValidation, psicologoController.cadastrar);
+router.put("/psicologos/:id",psicologosValidation , psicologoController.atualizar);
+router.delete("/psicologos/:id", psicologoController.deletar)
 
 //ATENDIMENTOS
-router.get('/atendimentos', atendimentosController.listAtendimento);
-router.get('/atendimentos/:id', atendimentosController.listOne);
-router.post('/atendimentos',atendimentoValidation, auth, atendimentosController.createAtendimento);
-
-//DASHBOARD
-router.get('/dashboard/numero-paciente', pacientesController.countPacientes);
-router.get('/dashboard/numero-psicologo', psicologosController.countPsicologos);
-router.get('/dashboard/numero-atendimentos', atendimentosController.countAtendimentos);
-router.get('/dashboard/media-atendimentos', atendimentosController.averageAtendimentos);
-
-router.post("/login", authLoginValidation, authController.login);
+router.get('/atendimentos', atendimentosController.listar);
+router.get('/atendimentos/:id', atendimentosController.listarID);
+router.post('/atendimentos',atendimentoValidation, auth, atendimentosController.cadastrar);
 
 module.exports = router;
