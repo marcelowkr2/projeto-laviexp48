@@ -1,3 +1,5 @@
+//inicia o servidor
+
 const express = require('express');
 const app = express();
 const rotas = require('./src/routes/rotas');
