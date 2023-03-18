@@ -1,7 +1,6 @@
 <div align="center">
   <img align="center" src="https://th.bing.com/th/id/OIP.vJ8QZASE7a4nxWFfavXxDAHaEK?pid=ImgDet&rs=1" alt="sequelize">
- </div>
-  <div align="center"><h2>Criador de conteúdo de programação e tecnologia!</h2></div><br>
+ </div><br>
 
 <h1>COMO RODAR O PROJETO.</h1>
  <h2>Instalar todas as dependencias indicadas pelo package.json.</h2>
@@ -39,13 +38,39 @@ Seuquelize é uma biblioteca Javascript que facilita o gerenciamento de um banco
 6º passo instalar as dependências do banco de dados Mysql.
 - Use o comando <strong>npm install --save mysql</strong><br><br>
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="Marcelo-js" height="30" width="40" src="https://img.icons8.com/fluency/256/node-js.png">
-  <img align="center" alt="Marcelo-Ts" height="30" width="40" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sequelize_icon_130173.png">
-  <img align="center" alt="Marcelo-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Marcelo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Marcelo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Marcelo-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="Marcelo-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="right" alt="marcelo-pic" height="150" style="border-radius:50px;" src="https://github.com/marcelowkr2/imagens/blob/2c5cdd4d99c341df1015b28166c2706d7860219b/430910.png">
-  </div>
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+<br><br>
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="52" alt="nodejs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="52" alt="sequelize logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" width="52" alt="mysql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" width="52" alt="express logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" width="52" alt="npm logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" alt="github logo"  />
+</div>
+
+---
+
+<h2> 👨‍💻 Desenvolvedor do Projeto </h2><br>
+
+<h2>
+
+---
+<table align=center>
+  <tr>
+
+
+   
+   
+  <td align="center" width=150> <img src="https://scontent.fvix16-1.fna.fbcdn.net/v/t39.30808-6/324590977_831142641282006_1791829109394551304_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFwCJnpPYD_m9Appbl9FbuYo90eY2F5Am-j3R5jYXkCb5QJ-ZcUDM0qDTAzYk3Slh26beIW5KvXiiwpf3CzH1Bw&_nc_ohc=JXyj8M9NVQkAX-e85wG&_nc_ht=scontent.fvix16-1.fna&oh=00_AfDGNCrWcIRiG828pZD9HIwkpofXNYY-3ypvqSvbzCKdqg&oe=641A8FDA" width=100/> </br><a href="https://www.linkedin.com/in/marcelopo/"> Marcelo Pires </a>
+   </td>
+
+
+
+  </tr>
+</table> </h2>
