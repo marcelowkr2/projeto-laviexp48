@@ -56,7 +56,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-<h2> 👨‍💻 Contribuidores </h2><br>
+<h2> 👨‍💻 Desenvolvedor do Projeto </h2><br>
 
 <h2>
 
@@ -67,7 +67,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
    
    
-  <td align="center" width=150> <img src="https://scontent.fvix16-1.fna.fbcdn.net/v/t39.30808-6/324590977_831142641282006_1791829109394551304_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFwCJnpPYD_m9Appbl9FbuYo90eY2F5Am-j3R5jYXkCb5QJ-ZcUDM0qDTAzYk3Slh26beIW5KvXiiwpf3CzH1Bw&_nc_ohc=JXyj8M9NVQkAX-e85wG&_nc_ht=scontent.fvix16-1.fna&oh=00_AfDGNCrWcIRiG828pZD9HIwkpofXNYY-3ypvqSvbzCKdqg&oe=641A8FDA" width=100/> </br><a href="https://www.linkedin.com/in/heylipemoreno"> Felipe Moreno </a>
+  <td align="center" width=150> <img src="https://scontent.fvix16-1.fna.fbcdn.net/v/t39.30808-6/324590977_831142641282006_1791829109394551304_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFwCJnpPYD_m9Appbl9FbuYo90eY2F5Am-j3R5jYXkCb5QJ-ZcUDM0qDTAzYk3Slh26beIW5KvXiiwpf3CzH1Bw&_nc_ohc=JXyj8M9NVQkAX-e85wG&_nc_ht=scontent.fvix16-1.fna&oh=00_AfDGNCrWcIRiG828pZD9HIwkpofXNYY-3ypvqSvbzCKdqg&oe=641A8FDA" width=100/> </br><a href="https://www.linkedin.com/in/marcelopo/"> Marcelo Pires </a>
    </td>
 
 
