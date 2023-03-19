@@ -16,7 +16,7 @@ const router = express.Router();
 //PACIENTES
 router.get('/pacientes', pacientesController.listar);
 router.get('/pacientes/:id', pacientesController.listarID);
-router.post('/pacientes', validatePacientes, pacientesController.cadastrar);
+router.post('/pacientes/cadastar', validatePacientes, pacientesController.cadastrar);
 router.put('/pacientes/:id', validatePacientes, pacientesController.atualizar);
 router.delete('/pacientes/:id',validatePacientes, pacientesController.deletar);
 
