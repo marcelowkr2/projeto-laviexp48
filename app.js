@@ -1,9 +1,11 @@
-
 const express = require('express');
-const app = express();
 const rotas = require('./src/routes/rotas');
+const hasConection = require('./src/database/db');
+const requestLog = require("./src/middlewares/log")
+const app = express();
 
-app.use('/', rotas)
+app.use('/', rotas);
+app.use(requestLog);
 app.use(express.json());
 
 

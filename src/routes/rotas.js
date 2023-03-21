@@ -1,13 +1,10 @@
 const express = require('express');
-
 const pacientesController = require('../controllers/pacientes');
-const validatePacientes = require ('../middlewares/auth');
-
 const psicologoController = require("../controllers/psicologos");
-const psicologosValidation = require ("../middlewares/auth");
-
 const atendimentosController = require('../controllers/atendimentos');
-const atendimentoValidation = require ("../middlewares/auth");
+const validadePsicologos = require ("../validators/psicologos/cadastrar");
+const validatePacientes = require ("../validators/pacientes/cadastrar");
+const atendimentoValidation = require ("../validators/atendimentos/cadastrar");
 const auth = require ("../middlewares/auth");
 
 const router = express.Router();
@@ -23,8 +20,8 @@ router.delete('/pacientes/:id',validatePacientes, pacientesController.deletar);
 //PSICOLOGOS
 router.get("/psicologo", psicologoController.listar);
 router.get("/psicologos/:id", psicologoController.listarID);
-router.post("/psicologos",psicologosValidation, psicologoController.cadastrar);
-router.put("/psicologos/:id",psicologosValidation , psicologoController.atualizar);
+router.post("/psicologos",validadePsicologos, psicologoController.cadastrar);
+router.put("/psicologos/:id",validadePsicologos , psicologoController.atualizar);
 router.delete("/psicologos/:id", psicologoController.deletar)
 
 //ATENDIMENTOS

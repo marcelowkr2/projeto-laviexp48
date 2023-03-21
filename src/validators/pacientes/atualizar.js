@@ -1,10 +1,10 @@
-const { validate, Joi } = require("express-validation");
+const { validate, Joi } = require("express-validator");
 
 module.exports = validate({
   body: Joi.object({
-    nome: Joi.string(),
-    email: Joi.string().email(),
-    data_nascimento: Joi.date().max('12-31-2020'),
+    nome: Joi.string().require(),
+    email: Joi.string().email().require(),
+    data_nascimento: Joi.date().max('12-31-2020').require(),
   }),
 });
 

@@ -1,4 +1,5 @@
-const {psicologos} = require("../models/index");
+const {psicologos} = require("../models");
+
 
 const psicoController = {
     listar: async(req, res) => {
