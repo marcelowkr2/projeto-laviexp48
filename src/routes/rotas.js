@@ -3,8 +3,8 @@ const pacientesController = require('../controllers/pacientes');
 const psicologoController = require("../controllers/psicologos");
 const atendimentosController = require('../controllers/atendimentos');
 const validadePsicologos = require ("../validators/psicologos/cadastrar");
-const validatePacientes = require ("../validators/pacientes/cadastrar");
-const atendimentoValidation = require ("../validators/atendimentos/cadastrar");
+const validatePacientes = require ("../validators/pacientes/cadastrar.js");
+const atendimentoValidation = require ("../validators/atendimentos/cadastrar.js");
 const auth = require ("../middlewares/auth");
 
 const router = express.Router();
