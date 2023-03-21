@@ -16,12 +16,12 @@ const router = express.Router();
 //PACIENTES
 router.get('/pacientes', pacientesController.listar);
 router.get('/pacientes/:id', pacientesController.listarID);
-router.post('/pacientes/cadastar', validatePacientes, pacientesController.cadastrar);
+router.post('/pacientes', validatePacientes, pacientesController.cadastrar);
 router.put('/pacientes/:id', validatePacientes, pacientesController.atualizar);
 router.delete('/pacientes/:id',validatePacientes, pacientesController.deletar);
 
 //PSICOLOGOS
-router.get("/psicologo/listar", psicologoController.listar);
+router.get("/psicologo", psicologoController.listar);
 router.get("/psicologos/:id", psicologoController.listarID);
 router.post("/psicologos",psicologosValidation, psicologoController.cadastrar);
 router.put("/psicologos/:id",psicologosValidation , psicologoController.atualizar);
