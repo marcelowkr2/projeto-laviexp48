@@ -38,6 +38,10 @@ Seuquelize é uma biblioteca Javascript que facilita o gerenciamento de um banco
 6º passo instalar as dependências do banco de dados Mysql.
 - Use o comando <strong>npm install --save mysql</strong><br><br>
 
+7º passo instale express-validation 
+ express-validation é um middleware expresso que valida uma solicitação e retorna uma resposta com erros; se alguma das regras de validação configuradas falhar.
+- Use o comando <strong>npm i express-validation --save</strong><br><br>
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
