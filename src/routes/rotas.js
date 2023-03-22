@@ -1,11 +1,12 @@
 const express = require('express');
 const pacientesController = require('../controllers/pacientes');
-const psicologoController = require("../controllers/psicologos");
+const psicoController = require("../controllers/psicologos");
 const atendimentosController = require('../controllers/atendimentos');
 const validadePsicologos = require ("../validators/psicologos/cadastrar");
-const validatePacientes = require ("../validators/pacientes/cadastrar.js");
-const atendimentoValidation = require ("../validators/atendimentos/cadastrar.js");
-const auth = require ("../middlewares/auth");
+const validatePacientes = require ("../validators/pacientes/cadastrar");
+const atendimentoValidation = require ("../validators/atendimentos/cadastrar");
+const authLoginValidation = require ("../validators/auth/login");
+const authController = require ("../controllers/authController")
 
 const router = express.Router();
 
@@ -18,15 +19,19 @@ router.put('/pacientes/:id', validatePacientes, pacientesController.atualizar);
 router.delete('/pacientes/:id',validatePacientes, pacientesController.deletar);
 
 //PSICOLOGOS
-router.get("/psicologo", psicologoController.listar);
-router.get("/psicologos/:id", psicologoController.listarID);
-router.post("/psicologos",validadePsicologos, psicologoController.cadastrar);
-router.put("/psicologos/:id",validadePsicologos , psicologoController.atualizar);
-router.delete("/psicologos/:id", psicologoController.deletar)
+router.get("/psicologo", psicoController.listar);
+router.get("/psicologos/:id", psicoController.listarID);
+router.post("/psicologos",validadePsicologos, psicoController.cadastrar);
+router.put("/psicologos/:id",validadePsicologos , psicoController.atualizar);
+router.delete("/psicologos/:id", psicoController.deletar)
 
 //ATENDIMENTOS
 router.get('/atendimentos', atendimentosController.listar);
 router.get('/atendimentos/:id', atendimentosController.listarID);
-router.post('/atendimentos',atendimentoValidation, auth, atendimentosController.cadastrar);
+router.post('/atendimentos',atendimentoValidation, atendimentosController.cadastrar);
+
+router.post('/login',authLoginValidation, authController.login);
+
+
 
 module.exports = router;
