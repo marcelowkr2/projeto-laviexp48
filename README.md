@@ -71,7 +71,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
    
    
-  <td align="center" width=150> <img src="https://scontent.fvix16-1.fna.fbcdn.net/v/t39.30808-6/324590977_831142641282006_1791829109394551304_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFwCJnpPYD_m9Appbl9FbuYo90eY2F5Am-j3R5jYXkCb5QJ-ZcUDM0qDTAzYk3Slh26beIW5KvXiiwpf3CzH1Bw&_nc_ohc=JXyj8M9NVQkAX-e85wG&_nc_ht=scontent.fvix16-1.fna&oh=00_AfDGNCrWcIRiG828pZD9HIwkpofXNYY-3ypvqSvbzCKdqg&oe=641A8FDA" width=100/> </br><a href="https://www.linkedin.com/in/marcelopo/"> Marcelo Pires </a>
+  <td align="center" width=150> <img src="https://media.licdn.com/dms/image/D4D35AQEAVVwMmaZnVA/profile-framedphoto-shrink_200_200/0/1692298107008?e=1701374400&v=beta&t=Q2mvTW235BsK8dYTadMASsQn1kDjYGqZBgE_a0Nx6cg"> Marcelo Pires </a>
    </td>
 
 
