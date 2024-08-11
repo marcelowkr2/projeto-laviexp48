@@ -1,6 +1,8 @@
 {
   "name": "conectando_bd",
   "version": "1.0.0",
+  "type": "commonjs",
+  "types": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "conectando_bd": "file:",
     "express": "^4.18.2",
-    "mysql2": "^3.2.0",
+    "mysql2": "^3.2.2",
     "sequelize": "^6.29.0"
   },
   "devDependencies": {
